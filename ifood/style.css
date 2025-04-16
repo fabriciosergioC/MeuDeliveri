@@ -1,0 +1,109 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .restaurants, .restaurant-details, .cart {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  /* Lista de Restaurantes */
+  #restaurant-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #restaurant-list li {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  #restaurant-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Carrinho */
+  .cart {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    
+  }
+
+  .cart button {
+    display: block; /* Faz com que cada botão ocupe uma linha inteira */
+    width: 100%; /* Ajusta a largura do botão para ocupar todo o espaço disponível */
+    margin-top: 10px; /* Adiciona espaçamento entre os botões */
+}
+  
+  #cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cart-items li {
+    padding: 5px 0;
+  }
+  
+
+
+  /* Botão Voltar */
+  #back-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #back-button:hover {
+    background-color: #e55b40;
+  }
+
+  #menu-list {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o espaçamento interno padrão */
+    display: flex; /* Define um layout flexível */
+    flex-direction: column; /* Alinha os itens verticalmente */
+    gap: 10px; /* Adiciona espaçamento entre os itens */
+
+    display: flex; /* Define um layout flexível para alinhar o texto e o botão */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: 1px solid #ddd; /* Adiciona uma borda ao redor dos itens */
+    margin-bottom: 10px; /* Adiciona espaçamento entre os itens */
+    background-color: white; /* Define a cor de fundo */
+
+}
+
+#menu-list li {
+    display: flex; /* Define um layout flexível */
+    flex-direction: row; /* Alinha o texto e o botão horizontalmente */
+    justify-content: space-between; /* Espaça o texto e o botão uniformemente */
+    align-items: center; /* Alinha verticalmente o texto e o botão */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: 1px solid #ddd; /* Adiciona uma borda ao redor dos itens */
+    margin-bottom: 10px; /* Adiciona espaçamento entre os itens */
+    background-color: white; /* Define a cor de fundo */
+}
+
