@@ -1,9 +1,11 @@
 # MeuDelivery
 
+<span>Um site de delivery de comida inspirado no iFood.<span/>
+
 ![Captura de tela_2025-04-16_09-36-26](https://github.com/user-attachments/assets/a45de9cc-7cf0-4743-b61f-d49b1760008b)
 
 
-Um site de delivery de comida inspirado no iFood.
+
 
 ## Funcionalidades
 - Lista de restaurantes próximos.
