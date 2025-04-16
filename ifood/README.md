@@ -1,4 +1,7 @@
 # MeuDelivery
+<div align="center">
+  <img height="150" src="imagens/Captura de tela_2025-04-16_09-36-26.png"  />
+</div>
 
 Um site de delivery de comida inspirado no iFood.
 
