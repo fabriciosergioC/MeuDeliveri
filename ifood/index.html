@@ -13,32 +13,42 @@
     <p>Pedido online rápido e fácil</p>
   </header>
 
-  <!-- Lista de Restaurantes -->
-  <section class="restaurants">
-    <h2>Categorias</h2>
-    <ul id="restaurant-list">
-      <!-- Itens serão adicionados dinamicamente pelo JavaScript -->
-    </ul>
-  </section>
+  <div class="container">
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+      <!-- Lista de Restaurantes -->
+      <section class="restaurants" id="restaurants-section">
+        <h2>Categorias</h2>
+        <ul id="restaurant-list">
+          <!-- Itens serão adicionados dinamicamente pelo JavaScript -->
+        </ul>
+      </section>
 
-  <!-- Detalhes do Restaurante -->
-  <section class="restaurant-details" id="restaurant-details" style="display: none;">
-    <h2 id="restaurant-name">Nome do Restaurante</h2>
-    <ul id="menu-list">
-      <!-- Menu será adicionado dinamicamente pelo JavaScript -->
-    </ul>
-    <button id="back-button">Voltar</button>
-  </section>
+      <!-- Detalhes do Restaurante -->
+      <section class="restaurant-details" id="restaurant-details" style="display: none;">
+        <h2 id="restaurant-name">Nome do Restaurante</h2>
+        <ul id="menu-list">
+          <!-- Menu será adicionado dinamicamente pelo JavaScript -->
+        </ul>
+        <button id="back-button">Voltar</button>
+      </section>
+    </main>
 
-  <!-- Carrinho de Compras -->
-  <aside class="cart">
-    <h2>Carrinho</h2>
-    <ul id="cart-items" class=" .cart button ">
-      <!-- Itens do carrinho serão adicionados dinamicamente -->
-    </ul>
-    <p>Total: R$<span id="cart-total">0.00</span></p>
-  </aside>
-
+    <!-- Carrinho de Compras -->
+    <aside class="cart">
+      <h2>Carrinho</h2>
+      <ul id="cart-items">
+        <!-- Itens do carrinho serão adicionados dinamicamente -->
+      </ul>
+      <div class="cart-total">
+        Total: R$<span id="cart-total">0.00</span>
+      </div>
+      <button id="checkout-button" class="checkout-button" onclick="finalizarPedido()">
+        Finalizar Pedido
+      </button>
+    </aside>
+  </div>
   <script src="script.js"></script>
 </body>
+
 </html>
