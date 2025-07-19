@@ -2,7 +2,7 @@
 ## Sobre
 Um site de delivery de comida inspirado no iFood. <br>
 
-https://github.com/fabriciosergioC/MeuDeliveri/blob/main/imagens/delivery.png
+![Logo Delivery](https://github.com/fabriciosergioC/MeuDeliveri/blob/main/imagens/delivery.png)
 
 ## Funcionalidades
 - Lista de categorias de pedidos.
